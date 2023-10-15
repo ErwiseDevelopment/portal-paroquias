@@ -71,7 +71,7 @@
                                         while(have_rows( 'fotos_nossas_paroquias', 'option' )) : the_row();
                                 ?>
                                             <div 
-                                            class="swiper-slide flex-column align-items-start js-about-contents js-filter-item"
+                                            class="swiper-slide flex-column align-items-start  js-filter-item"
                                             data-name="<?php echo get_sub_field( 'lugar_nossas_paroquias', 'option' ) ?>"
                                             data-state="<?php echo get_sub_field( 'estado_nossas_paroquias', 'option' ) ?>">
                                             <a href="<?php echo get_sub_field( 'link_site', 'option' )?>"  target="_blank"  style="text-decoration: none;">
